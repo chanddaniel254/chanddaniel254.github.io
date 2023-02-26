@@ -22,6 +22,9 @@ app.use(bodyparser.json())
 
 //routes
 
+app.get('',(req,res)=>{
+    res.send('emi api')
+})
 app.use('/kheti',routes)
 //end
 
